@@ -1,0 +1,297 @@
+
+/*header*/
+
+.nav-bar {
+    float: left;
+    padding-left: 36px;
+    padding-top: 24px;
+    display: inline;
+}
+
+.nav-bar a {
+    color: rgb(15, 146, 55);
+    font-weight: 500;
+    border-bottom: 2px transparent solid;
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-size: 23px;
+    text-decoration: none;
+    align-content: space-around;
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px rgb(110, 108, 108) solid;
+    font-size: 25px;
+    transition: border-bottom, font-size;
+    transition-duration: .5s;
+    font-weight: 800;
+    color: black;
+}
+
+#home:hover{
+    cursor: not-allowed;
+}
+
+/*body*/
+p{
+    color: brown;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: justify;
+    word-break: normal;
+}
+
+p{
+    font-family: 'Redressed', cursive;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: green;
+    font-weight: 800;
+    font-style: bold;
+    font-family:  cursive;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.heading h1 {
+    color: rgb(187, 61, 15);
+    font-size: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.heading h1 span {
+    color: red;
+    font-size: 43px;
+}
+
+.heading p {
+    color: rgb(0, 38, 255);
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: initial;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Redressed', cursive;
+}
+
+.heading p span {
+    color: rgb(255, 0, 85);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.flora {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flora-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.flora-content h2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: green;
+    padding-left: 8px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.flora-content p {
+    font-size: 30px;
+    width: 500px;
+    text-transform: inherit;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Redressed', cursive;
+}
+
+.flora img {
+    height: 40vw;
+    width: 40vw;
+    float: right;
+    border-radius: 35px;
+}
+
+.flora img:hover{
+    initial-value: flora;
+}
+
+.fauna {
+    padding-top: 40px;
+}
+
+.fauna-content {
+    padding-left: 60px;
+}
+
+.fauna-content h2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: green;
+    padding-left: 10px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.fauna-content p {
+    font-size: 30px;
+    text-transform: inherit;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Redressed', cursive;
+    width: 80vw;
+}
+
+.fauna img {
+    height: 70%;
+    width: 70%;
+    justify-content: space-around;
+    padding-left: 16vw;
+    border-radius: 15px;
+}
+
+.connection{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.connection h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.connection p{
+    font-size: 30px;
+    color: brown;
+    width: 80vw;
+}
+
+.connection img{
+    padding-left: 30vw; 
+    border-radius: 15px;
+}
+
+.importance{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.importance h1{
+    font-size: 40px;
+    color: lightslategray;
+}
+
+.importance p{
+    width:80vh;
+}
+
+.naturally{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.naturally h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.naturally p{
+    width: 80vw;
+}
+
+.economically{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.economically h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.economically p{
+    width: 80vw;
+    word-break:normal;
+}
+
+.conservation{
+    padding-left:70px;
+    padding-top:15px;
+}
+
+.conservation h1{
+    padding-left: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 43px;
+    color: lightslategray;
+}
+
+.conserve h2{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: left 15px; ;
+}
+
+.conserve p{
+    width: 80vw;
+}
+
+.solution{
+    padding-left:60px;
+    padding-top:15px;
+}
+
+.solution h1{
+    padding-left: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 43px;
+    color: lightslategray;
+}
+
+.help h2{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.help p{
+    width: 80vw;
+}
+
+.solution li{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.points{
+    padding-left: 70px;
+}
+
+.copyright{
+    padding-left: 29vw;
+    font-weight: bold;
+    color: red;
+    padding-top:  45px; 
+    border: 15px transparent solid;
+}
